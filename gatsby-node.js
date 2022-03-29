@@ -86,6 +86,19 @@ const createPages = async ({ graphql, actions }) => {
 
 exports.createPages = createPages
 
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createTypes } = actions
+
+  createTypes(`
+    type Mdx implements Node {
+      frontmatter: MdxFrontmatter!
+    }
+    type MdxFrontmatter {
+        featuredImage: File @fileByRelativePath
+    }
+  `)
+}
+
 function slugify(str) {
     return(
         str && str.match(/[A-Z]{2,}(?=[A-Z][a-z]+[0-9]*|\b)|[A-Z]?[a-z]+[0-9]*|[A-Z]|[0-9]+/g).map((x) => x.toLowerCase()).join('-')
