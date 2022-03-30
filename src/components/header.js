@@ -37,7 +37,7 @@ export default function Header() {
     return(
         <header className="mb-16 lg:mb-32">
             <div className="flex justify-between">
-                <Link to="/" className="text-3xl font-bold">Mr.MARU</Link>
+                <Link to="/" className="text-3xl font-bold hover:text-secondary">Mr.MARU</Link>
                 <DarkMode onUpdateTheme={() => onUpdateTheme(theme)} theme={theme}/>
             </div>
             <div className="flex justify-between mt-4 align-middle border-b pb-2">

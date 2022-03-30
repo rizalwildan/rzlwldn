@@ -27,7 +27,7 @@ export default function Post({ data }) {
                     <div className="flex">
                         {
                             tags.map(val => (
-                                <Link to={`tags/${slugify(val)}`} className="mr-2">{`#${val}`}</Link>
+                                <Link to={`/tags/${slugify(val)}`} className="mr-2 link link-hover hover:text-secondary">{`#${val}`}</Link>
                             ))
                         }
                     </div>

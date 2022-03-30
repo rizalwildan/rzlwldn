@@ -5,14 +5,13 @@ import Footer from "./footer";
 export default function Layout({ children }) {
     return(
         <>
-            <div className="max-w-5xl mx-auto h-full p-8">
-                <div className="flex flex-col h-full">
+            <div className='border-b-4 border-b-secondary'/>
+            <div className="flex flex-col min-h-screen max-w-5xl mx-auto p-8">
                     <Header />
-                    <main>
+                    <main className='flex-grow'>
                         {children}
                     </main>
                     <Footer />
-                </div>
             </div>
         </>
     )
