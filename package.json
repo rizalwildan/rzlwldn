@@ -19,7 +19,6 @@
     "@tailwindcss/typography": "^0.5.2",
     "daisyui": "^2.13.3",
     "gatsby": "^4.10.3",
-    "gatsby-plugin-dark-mode": "^1.1.2",
     "gatsby-plugin-image": "^2.10.1",
     "gatsby-plugin-mdx": "^3.10.2",
     "gatsby-plugin-netlify": "^4.1.0",
