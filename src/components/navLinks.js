@@ -4,13 +4,9 @@ import {FaGithub, FaTwitter} from "react-icons/all";
 
 const menus = [
     {
-        name: 'Blogs',
+        name: 'Articles',
         url: '/blog'
     },
-    {
-        name: 'Notes',
-        url: '/'
-    }
 ]
 
 const socials = [

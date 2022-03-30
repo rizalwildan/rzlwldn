@@ -32,7 +32,7 @@ export default function Post({ data }) {
                         }
                     </div>
                 </span>
-                <section className="my-16 prose max-w-none text-justify prose-stone prose-img:rounded-xl prose-a:text-secondary lg:prose-xl">
+                <section className="my-16 prose max-w-none text-justify prose-stone prose-img:rounded-xl prose-img:m-auto prose-a:text-secondary lg:prose-xl">
                     <MDXRenderer>{post.body}</MDXRenderer>
                 </section>
             </main>

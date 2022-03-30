@@ -7,10 +7,10 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    title: `Mr.Maru Lovely Website`,
+    description: `If you propose to speak, always ask yourself, is it true, is it necessary, is it kind.`,
+    author: `@mrmaru`,
+    siteUrl: `https://maru.netlify.app/`,
   },
   plugins: [
       `gatsby-plugin-postcss`,
