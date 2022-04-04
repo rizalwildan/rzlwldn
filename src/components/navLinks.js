@@ -29,7 +29,7 @@ export default function NavLinks() {
             </div>
             <div className="flex items-center">
                 { socials.map(val => (
-                    <Link to={val.url} className="mr-4 last:mr-0 hover:text-secondary" key={val.name}>
+                    <Link to={val.url} target="_blank" rel='noreferrer' className="mr-4 last:mr-0 hover:text-secondary" key={val.name}>
                         { val.name === 'github' ? <FaGithub /> : ''}
                         { val.name === 'twitter' ? <FaTwitter /> : ''}
                     </Link>
